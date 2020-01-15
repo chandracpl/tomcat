@@ -1,4 +1,5 @@
 FROM tomcat:8.0
+VOLUME /usr/local/tomcat
 RUN apt update -y
 RUN apt install wget -y
 RUN apt install vim -y
